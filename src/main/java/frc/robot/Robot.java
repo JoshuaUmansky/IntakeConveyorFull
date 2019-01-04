@@ -26,7 +26,7 @@ public class Robot extends TimedRobot {
     m_oi = new OI();
     m_chooser.addDefault("Default Auto", new comConveyor());
 
-    SmartDashboard.putData("Auto mode", m_chooser);
+    SmartDashboard.putData("Auto mode", m_chooser);//im going to play with this line
   }
 
   @Override
