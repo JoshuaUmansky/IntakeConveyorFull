@@ -19,9 +19,15 @@ public class Robot extends TimedRobot {
  
   public static OI m_oi;
 
+
+  //desktop2
+
   Command m_autonomousCommand;
   SendableChooser<Command> m_chooser = new SendableChooser<>();
   @Override
+
+  public void robotInit() {//im going to play with this line
+    m_oi = new OI();
   public void robotInit() {
     m_oi = new OI();//im going to play with this line
     m_chooser.addDefault("Default Auto", new comConveyor());
