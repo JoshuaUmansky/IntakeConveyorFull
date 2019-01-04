@@ -18,12 +18,8 @@ import frc.robot.commands.comConveyor;
 public class Robot extends TimedRobot {
  
   public static OI m_oi;
-
-
-
-
-
-  //desktop1
+  //desktop
+//laptop
   Command m_autonomousCommand;
   SendableChooser<Command> m_chooser = new SendableChooser<>();
   @Override
