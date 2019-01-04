@@ -23,7 +23,7 @@ public class Robot extends TimedRobot {
   SendableChooser<Command> m_chooser = new SendableChooser<>();
   @Override
   public void robotInit() {
-    m_oi = new OI();
+    m_oi = new OI();//im going to play with this line
     m_chooser.addDefault("Default Auto", new comConveyor());
 
     SmartDashboard.putData("Auto mode", m_chooser);//im going to play with this line
