@@ -14,9 +14,9 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.commands.comConveyor;
 
-//does this work?
+//Does this work? how about now
 public class Robot extends TimedRobot {
- //now does this work?
+ 
   public static OI m_oi;
 
   Command m_autonomousCommand;
@@ -26,7 +26,7 @@ public class Robot extends TimedRobot {
     m_oi = new OI();
     m_chooser.addDefault("Default Auto", new comConveyor());
 
-    SmartDashboard.putData("Auto mode", m_chooser);
+    SmartDashboard.putData("Auto mode", m_chooser);//im going to play with this line
   }
 
   @Override
